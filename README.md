@@ -30,13 +30,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+`When you first start building your class component make sure to initialize the contructor function with an initial state.`
+
 2. Describe the different phases of the component lifecycle.
+
+`The three phases are the mounting Phase, the update phase and the un-mounting phase.`
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+`There are various different class component lifecycle methods. Examples would be constructor, render, and componentDidMount/DidUpdate/WillUnmount.  The render method basically just renders the data that is put into it. Render will rerun whenever state is changed in the updating phase.`
+
 4. Define stateful logic.
 
+`Stateful logic is a kind of logic that deals with state in a component. It can be shown as a handle function, a toggle function, etc.`
+
 5. Describe how to test a React component with React Testing Library.
+
+``
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -54,22 +64,22 @@ _Please follow the setup instructions closely so that you can get everything up 
 
 **Basic set up**
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 **Starting the server**
 
-- [ ] Run `npm install` to download dependencies for the server.
-- [ ] Run the server using `npm start`.
-- [ ] Open a new browser tab and navigate to `http://localhost:3333/plants` - if you see a JSON object with plants data, then you know the server is running 👍
+- [x] Run `npm install` to download dependencies for the server.
+- [x] Run the server using `npm start`.
+- [x] Open a new browser tab and navigate to `http://localhost:3333/plants` - if you see a JSON object with plants data, then you know the server is running 👍
 
 **Starting the React app**
 
-- [ ] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
-- [ ] Still inside the `client` folder run `npm run start` to run the client application.
-- [ ] Your browser should open up the project as normal
+- [x] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
+- [x] Still inside the `client` folder run `npm run start` to run the client application.
+- [x] Your browser should open up the project as normal
 
 **Starting your test runner**
 
@@ -78,8 +88,8 @@ _Please follow the setup instructions closely so that you can get everything up 
 
 **Commit and Push OFTEN!**
 
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x] Implement the project on this Branch, **committing progress & changes often.**
+- [x] Push commits: `git push origin <firstName-lastName>`.
 
 ### Task 2: Project Requirements
 
