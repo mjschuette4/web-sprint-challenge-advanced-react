@@ -18,7 +18,7 @@ test("form shows success message on submit with form details", () => {
 
     fireEvent.change(firstName, {target: {value:"Matthew"}});
     fireEvent.click(submit);
-
+    
     findAllByText(/Matthew/i);
     expect(getByTestId("successMessage")).toBeInTheDocument();  
 });

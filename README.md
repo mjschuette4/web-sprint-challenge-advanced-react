@@ -29,24 +29,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
-TBD
-`When you first start building your class component make sure to initialize the contructor function with an initial state.`
+
+`Make sure to initialize with a constructor with this.state set to your initial state. Then add different functions that can handle different things such as inputs and changes. `
 
 2. Describe the different phases of the component lifecycle.
 
-`The three phases are the mounting Phase, the update phase and the un-mounting phase.`
+`The three phases are the mounting Phase which is the phase in which elements are put int othe DOM, the update phase which is the phase in which the component is being updated and the un-mounting phase which is when a component is unmounted.`
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
-`There are various different class component lifecycle methods. Examples would be constructor, render, and componentDidMount/DidUpdate/WillUnmount.  The render method basically just renders the data that is put into it. Render will rerun whenever state is changed in the updating phase.`
+`There are various different class component lifecycle methods. Examples would be constructor, render, and componentDidMount/DidUpdate/WillUnmount. The constructor defines the state. The render method basically just renders the data that is put into it. Render will rerun whenever state is changed in the updating phase.`
 
 4. Define stateful logic.
 
 `Stateful logic is a kind of logic that deals with state in a component. It can be shown as a handle function, a toggle function, etc.`
 
 5. Describe how to test a React component with React Testing Library.
-TBD
-``
+
+`First you have to think about what you want to test and what is the most critical parts of your code taht need to function. Think about the process that you have to go through to get those functions to work such as clicking buttons or typing in inputs. Then you begin creating the test using the react testing library. Make sure that you can fail your test intentionally to make sur ethat you are testing the correct thing.`
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
