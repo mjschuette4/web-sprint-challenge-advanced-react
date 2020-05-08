@@ -11,7 +11,7 @@ test("form header renders", () => {
 });
 
 test("form shows success message on submit with form details", () => {
-    async () => {const {getByText, getByLabelText, getByTestId} = render(<CheckoutForm />)
+    async () => {const {getByLabelText, getByTestId} = render(<CheckoutForm />)
 
     const firstName = getByLabelText(/firstName/i);
     const lastName = getByLabelText(/lastName/i);
@@ -19,7 +19,7 @@ test("form shows success message on submit with form details", () => {
     const city = getByLabelText(/city/i);
     const state = getByLabelText(/state/i);
     const zip = getByLabelText(/zip/i);
-    const success = getByText(/Woo-hoo!/i);
+    const successMessage = getByText(/Woo-hoo!/i);
 
     fireEvent.change(firstName, {target: {value:"Matthew"}});
     fireEvent.change(lastName, {target: {value:"Schuette"}});
@@ -29,6 +29,5 @@ test("form shows success message on submit with form details", () => {
     fireEvent.change(zip, {target: {value:"70458"}});
     fireEvent.click(getByTestId("submit"));}
 
-    expect(success).toBeInTheDocument();
-    
+    expect(successMessage).toBeInTheDocument();  
 });
